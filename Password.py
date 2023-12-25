@@ -19,10 +19,10 @@ def password():
         x = int(input('Error: Enter a positive length: '))
     
     # Ask the user what password they would like based on the guidelines of the website they want to make a password for
-    print('(a) Only Numbers')
-    print('(b) Only Letters')
-    print('(c) Numbers, Letters, and Special Characters')
-    print('(d) Custom phrase in password and random after that')
+    print('(a) Only Numbers (Weak Password)')
+    print('(b) Only Letters (Weak Password)')
+    print('(c) Numbers, Letters, and Special Characters (Strong Password)')
+    print('(d) Custom phrase in password and random after that (Strong Password')
     choice = input('Which type of password would you like? ') #input
 
     # if the choice is not one of a, b, c, or d, prompt the user for one of those choices till a selection of one of those is made
